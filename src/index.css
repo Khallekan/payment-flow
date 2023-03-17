@@ -5,7 +5,7 @@
 @font-face {
   font-family: "ProductSans";
   src: local("ProductSans"),
-    url("./fonts/product-sans/Product Sans Regular.ttf") format("truetype");
+    url("/fonts/product-sans/Product Sans Regular.ttf") format("truetype");
 }
 
 html,
