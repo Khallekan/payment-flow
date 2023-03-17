@@ -48,6 +48,9 @@ const PrimarySelectInput: PrimarySelectInputType = ({
         required={required}
         className="global-select w-full h-12 lg:h-16 border border-primary-purple rounded-[10px] px-5 placeholder:text-primary-dark placeholder:font-normal font-normal overflow-hidden text-sm sm:text-base md:text-lg lg:text-xl"
       >
+        <option value="">
+          Select a {label}
+        </option>
         {options &&
           !!options.length &&
           options.map((option) => {
